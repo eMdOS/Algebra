@@ -1,0 +1,96 @@
+## format options
+
+# braces
+--allman false
+# elseOnSameLine
+--elseposition same-line
+--guardelse same-line
+# extensionAccessControl
+--extensionacl on-extension
+# hoistPatternLet
+--patternlet inline
+# indent
+--indent 4
+--indentcase false
+--ifdef indent
+# markTypes
+--marktypes always
+--typemark MARK: - %t
+--markextensions always
+--extensionmark MARK: - %t + %c
+--groupedextension MARK: %c
+# redundantSelf
+--self init-only
+# semicolons
+--semicolons never
+# sortedImports
+--importgrouping alphabetized
+# spaceAroundOperators
+--operatorfunc spaced
+--ranges spaced
+# trailingCommas
+--commas inline
+# trailingSpace
+--trimwhitespace always
+# typeSugar
+--shortoptionals always
+# unusedArguments
+--stripunusedargs always
+# void
+--voidtype void
+# wrap
+--maxwidth 160
+# wrapArguments
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--closingparen balanced
+# yodaConditions
+--yodaswap always
+
+## rules
+
+--enable \
+    andOperator, \
+    blankLinesAroundMark, \
+    blankLinesAtEndOfScope, \
+    blankLinesAtStartOfScope, \
+    blankLinesBetweenScopes, \
+    consecutiveBlankLines, \
+    consecutiveSpaces, \
+    duplicateImports, \
+    emptyBraces, \
+    enumNamespaces, \
+    isEmpty, \
+    leadingDelimiters, \
+    linebreakAtEndOfFile, \
+    modifierOrder, \
+    preferKeyPath, \
+    redundantBackticks, \
+    redundantBreak, \
+    redundantExtensionACL, \
+    redundantFileprivate, \
+    redundantGet, \
+    redundantInit, \
+    redundantLet, \
+    redundantLetError, \
+    redundantNilInit, \
+    redundantParens, \
+    redundantPattern, \
+    redundantRawValues, \
+    redundantReturn, \
+    redundantType, \
+    redundantVoidReturnType, \
+    sortedSwitchCases, \
+    spaceAroundBraces, \
+    spaceAroundBrackets, \
+    spaceAroundComments, \
+    spaceAroundGenerics, \
+    spaceAroundParens, \
+    spaceInsideBraces, \
+    spaceInsideBrackets, \
+    spaceInsideComments, \
+    spaceInsideGenerics, \
+    spaceInsideParens, \
+    strongifiedSelf, \
+    todos

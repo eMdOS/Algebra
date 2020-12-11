@@ -6,7 +6,9 @@ let package = Package(
     products: [
         .library(name: "Algebra", targets: ["Algebra"])
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/nicklockwood/SwiftFormat", .upToNextMajor(from: "0.47.0"))
+    ],
     targets: [
         .target(name: "Algebra", dependencies: []),
         .testTarget(name: "AlgebraTests", dependencies: ["Algebra"])
